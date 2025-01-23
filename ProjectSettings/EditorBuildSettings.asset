@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NewTrackTest.unity
     guid: fda70c0c188722841b1877f5940193f9
+  - enabled: 1
+    path: Assets/Scenes/PuiTak.unity
+    guid: 2d160ab0270ec4f49bce73e810945781
   m_configObjects: {}
