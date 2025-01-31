@@ -269,10 +269,10 @@ public class GlobalStateEditor : MonoBehaviour
         // Check if the version used is the latest version if not, notify the user !
         if (versionCheck.latest != GlobalState.version)
         {
-            YOffset += Ysteps;
-            bool getLatest = GUI.Button(new Rect(0, YOffset, width, Ysteps * 2), "A new version is available, \n click here to get latest version !");
-            YOffset += Ysteps * 2;
-            if (getLatest) { versionCheck.GetLatestVersion(); }
+            // YOffset += Ysteps;
+            // bool getLatest = GUI.Button(new Rect(0, YOffset, width, Ysteps * 2), "A new version is available, \n click here to get latest version !");
+            // YOffset += Ysteps * 2;
+            // if (getLatest) { versionCheck.GetLatestVersion(); }
         }
 
         YOffset += Ysteps;
